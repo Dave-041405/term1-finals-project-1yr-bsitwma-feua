@@ -6,7 +6,7 @@ class helloworld
     public:
     void hello_world()
     {
-        cout<<"Hello World";
+        cout<<"Sample Output";
     }
 };
 
