@@ -36,9 +36,17 @@ class UserCredentials
 				{
 					cout<<"Wrong credentials"<<endl;
                     cout<<"Exit? (y/n): ";cin>>response;
+                    // Program end task
                     if (response=='y')
                     {
                         return;
+                    }
+                    // User invalid input 
+                    if (response!='n') 
+                    {
+                        cout<<"Invalid input!";
+                        Sleep(1000);
+                        system("cls");
                     }
 				}
 			}
